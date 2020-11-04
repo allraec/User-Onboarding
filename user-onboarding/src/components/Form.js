@@ -37,9 +37,9 @@ const Form = () => {
                 <input type='password' id='password' name='password' value={user.password} onChange={onChange}/>
             </label>
             <br />
-            <label htmlFor='checkbox'>
+            <label htmlFor='agreeTerms'>
                 Do you agree to the Terms and Condition? 
-                <input type='checkbox' id='checkbox' name='checkbox' onChange={onChange}/>
+                <input type='checkbox' id='agreeTerms' name='agreeTerms' onChange={onChange}/>
             </label>
             {console.log(user)}
         </form>
