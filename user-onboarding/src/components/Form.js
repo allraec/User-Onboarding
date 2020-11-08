@@ -26,14 +26,14 @@ const Form = ({change, values, errors, submit}) => {
                 <input type='text' id='name' name='name' value={values.name} onChange={onChange}/>
             </label>
             <br />
-            <div>{errors.name}</div>
+            <div class='errorName'>{errors.name}</div>
             <br />
             <label htmlFor='email'>
                 Email: 
                 <input type='email' id='email' name='email' value={values.email} onChange={onChange}/>
             </label>
             <br />
-            <div>{errors.email}</div>
+            <div class='errorEmail'>{errors.email}</div>
             <br />
             <label htmlFor='password'>
                 Password: 
